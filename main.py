@@ -8,3 +8,4 @@ for order in orders:
     items = order['items']
     total = sum([item['price']*item['quantity'] for item in items])
     print(f"{customer}: ${total}")
+print("HEllo github")
